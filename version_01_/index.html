@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="site_title_section">
+            <h1 id="s_t_s_h1"></h1>
+        </div>
+    </header>
+    <main>
+        <div class="canvas">
+            <div class="c_header">
+                <h2 class="c_h_h2">x chose your weapon soldier x</h2>
+            </div>
+            <div class="c_body">
+                <div class="c_b_items">
+                    <ul class="c_b_i_ul">
+                        <li class="c_b_i_ul_li">
+                            <button class="c_b_i_ul_li_btn" onclick="pickWeapon('rock');">rock</button>
+                        </li>
+                        <li class="c_b_i_ul_li">
+                            <button class="c_b_i_ul_li_btn" onclick="pickWeapon('paper');">paper</button>
+                        </li>
+                        <li class="c_b_i_ul_li">
+                            <button class="c_b_i_ul_li_btn" onclick="pickWeapon('scissors');">scissors</button>
+                        </li>
+                    </ul>
+                    <div class="c_b_i_two" id="battle_ground">
+                        <div class="c_b_i_t_outcome">
+                            <p class="c_b_i_t_o_p">Your weapon was <span id="clientPick"></span>. <br>The Bot's weapon was <span id="botPick"></span>. <br><span id="finalOutcome"></span></p>
+                        </div>
+                        <div class="c_b_i_t_track_record">
+                            <p class="c_b_i_t_t_r_p">Trials Won = <span id="winTurns">3</span> <br>Trials loosed = <span id="looseTurns">0</span> <br>Trials Tagged = <span id="taggedTurns">0</span> <br><button class="c_b_i_t_t_r_btn" onclick="resetOutcomeRecord();">out of service</button></p>
+                        </div>
+                    </div>
+                    <div class="c_b_i_three">
+                        <div class="c_b_i_t_praise" id="battle_praise">
+                            <p class="c_b_i_t_p_p" id="b_p_p"></p>
+                        </div>
+                    </div>
+                    <div class="c_b_i_four">
+                        <div class="c_b_i_game_over" id="battle_over_praise">
+                            <p class="c_b_i_g_o_p" id="c_b_i_g_o_p"><span id="b_o_p_p"></span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --rpsffa: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --rps-color-white: #fff;
+    --rps-color-black: #000;
+    --rps-color-red: #e20000;
+    --rps-color-greyish: rgba(235, 234, 234, 0.877);
+    
+
+    background-color: var(--rps-color-greyish);
+    font-family: var(--rpsffa);
+}
+
+#s_t_s_h1 {
+    text-align: center;
+    font-weight: 900;
+    line-height: 4em;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 2.5% 10%;
+}
+
+.c_b_i_ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.c_h_h2 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3em;
+    margin-bottom: 5%;
+
+}
+
+.c_b_i_ul_li_btn {
+    padding: .3125em;
+    text-transform: capitalize;
+    border-radius: 7%;
+    font-size: 2em;
+    margin: .5em;
+    font-weight: 700;
+    background-color: var(--rps-color-black);
+    color: var(--rps-color-white);
+}
+
+.c_b_i_ul_li_btn:hover {
+    cursor: pointer;
+    background-color: var(--rps-color-red);
+}
+
+.c_b_i_two {
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.c_b_i_t_o_p {
+    font-size: 1.5em;
+    padding: .625em;
+    border: .3125em dashed var(--rps-color-white);
+    background-color: var(--rps-color-black);
+    color: var(--rps-color-white);
+}
+
+.c_b_i_t_o_p:hover,
+ .c_b_i_t_t_r_p:hover {
+    border-color: var(--rps-color-black);
+    background-color: var(--rps-color-white);
+    color: var(--rps-color-black);
+}
+
+.c_b_i_t_p_p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.c_b_i_t_t_r_p {
+    font-size: 1em;
+    padding: .625em;
+    border: .3125em dashed var(--rps-color-white);
+    background-color: var(--rps-color-black);
+    color: var(--rps-color-white);
+    margin-left: .5em;
+}
+
+.c_b_i_t_t_r_btn {
+    padding: .3125em;
+    text-transform: capitalize;
+    border-radius: 7%;
+    font-size: 1em;
+    margin: .3125em 0 0 .3125em;
+    font-weight: 700;
+    background-color: var(--rps-color-black);
+    color: var(--rps-color-white);
+    border: .0625em solid var(--rps-color-white);
+}
+
+.c_b_i_t_t_r_btn:hover {
+    cursor: pointer;
+    background-color: var(--rps-color-red);
+    border-color: var(--rps-color-black);
+}
+
+.c_b_i_g_o_p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
